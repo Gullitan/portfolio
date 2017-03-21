@@ -1,0 +1,136 @@
+header {
+    padding-bottom: 68px;
+    background: url("../img/header-photo.png") no-repeat;
+    background-position: top, center;
+    overflow: hidden;
+    .wrap {
+        .logo-and-nav {
+            padding-top: 39px;
+            overflow: hidden;
+            border-bottom-width: 39px;
+            margin-bottom: 0;
+            padding-bottom: 39px;
+            .logo {
+                float: left;
+                display: inline-block;
+                margin-right: 56px;
+                a {
+                    padding-top: 12px;
+                    padding-bottom: 12px;
+                }
+            }
+            .header {
+                display: inline-block;
+                .nav {
+                    display: inline-block;
+                    li {
+                        display: inline-block;
+                        a {
+                            text-transform: uppercase;
+                            color: #e2e2e2;
+                            &:hover {
+                                background-color: #55bd77;
+                            }
+                        }
+                        .active {
+                            color: #ffac55;
+                        }
+                    }
+                }
+            }
+            .tel-and-email {
+                display: inline-block;
+                height: 25px;
+                margin-left: 30px;
+                margin-bottom: 0;
+                padding-bottom: 0;
+                float: right;
+                span {
+                    background: url("../img/phone-icon.png") no-repeat;
+                    padding-left: 30px;
+                    padding-bottom: 3px;
+                    text-transform: uppercase;
+                    color: white;
+                }
+                a {
+                    width: 31px;
+                    vertical-align: middle;
+                    border-radius: 20px;
+                    background: url("../img/email-icon.png") no-repeat #03b6e7;
+                    margin-left: 20px;
+                    height: 31px;
+                    display: inline-block;
+                    background-position: center;
+                }
+            }
+        }
+        .industry {
+            margin-top: 85px;
+            margin-bottom: 59px;
+            text-align: center;
+            .title {
+                span {
+                    text-transform: uppercase;
+                    color: white;
+                }
+                h1 {
+                    text-transform: uppercase;
+                    color: white;
+                    margin-top: 24px;
+                    margin-bottom: 59px;
+                }
+            }
+            .item { height: 250px;
+                .thumbnail {
+                    padding-top: 33%;
+                    padding-bottom: 17%;
+                    color: white;
+                    border: none;
+                    text-decoration: none;
+                }
+            }
+            .left {
+                i {
+                    margin-left: -32px;
+                    margin-top: -23px;
+                }
+            }
+            .right {
+                i {
+                    margin-right: -17px;
+                    margin-top: -23px;
+                }
+            }
+            .edu {
+                background: url("../img/1.png") no-repeat center #03b6e7;
+                border: none;
+            }
+            .tec {
+                background: url("../img/2.png") no-repeat center #03b6e7;
+                border: none;
+            }
+            .ban {
+                background: url("../img/3.png") no-repeat center #03b6e7;
+                border: none;
+            }
+            .buss {
+                background: url("../img/4.png") no-repeat center #03b6e7;
+                border: none;
+            }
+        }
+        .col-xs-12 {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+    }
+}
+
+
+
+
+
+
+
+
+

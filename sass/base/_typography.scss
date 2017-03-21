@@ -1,0 +1,80 @@
+.nav {
+    li {
+        a {
+            font: 400 14px / 15px $montserrat;
+        }
+    }
+}
+.tel-and-email {
+    span {
+        font: 400 15px / 15px $montserrat;
+    }
+}
+.industry {
+    .title {
+        span {
+            font: 400 16px / 15px $montserrat;
+        }
+        h1 {
+            font: 700 48px / 38px $montserrat;
+        }
+    }
+}
+.thumbnail {
+    font: 700 20px / 15px $montserrat;
+}
+.about {
+    .top-block {
+        span {
+            font: 400 15px / 28px $domine;
+        }
+    }
+}
+.top-block-features {
+    li {
+        h3 {
+            font: 700 17px / 15px $montserrat;
+        }
+        span {
+            font: 400 15px / 28px $domine;
+        }
+    }
+}
+.bottom-feature {
+    span {
+        font: 400 20px / 18px $domine;
+    }
+}
+.pro {
+    li {
+        h3 {
+            font: 700 18px / 15px $montserrat;
+        }
+        span {
+            font: 400 15px / 26px $domine;
+        }
+    }
+}
+.testimonials {
+    p {
+        font: 400 15px / 28px $domine;
+    }
+    h4 {
+        font: 700 14px / 15px $montserrat;
+    }
+    span {
+        font: 400 15px / 15px $domine;
+    }
+}
+.text-block-blog {
+    span {
+        font: 400 15px / 15px $domine;
+    }
+    h3 {
+        font: 700 18px / 15px $montserrat;
+    }
+    p {
+        font: 400 15px / 28px $domine;
+        color: #838b8c;
+    }
+}

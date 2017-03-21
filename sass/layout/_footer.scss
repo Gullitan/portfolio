@@ -1,0 +1,189 @@
+footer {
+    background-color: #262829;
+    overflow: hidden;
+    .wrap {
+        .top-footer {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 95px;
+            padding-bottom: 95px;
+            border-bottom: 1px solid #323334;
+            flex-wrap: wrap;
+            @media screen and (max-width: 948px){
+                justify-content: center;
+
+            }
+            .flex {
+                min-width: 310px;
+            }
+            .footer-logo {
+                min-width: 250px;
+                @media screen and (max-width: 587px){
+                    min-width: 180px;
+
+                }
+                a {
+                    margin-top: 95px;
+                    float: left;
+                    img {
+                        margin-bottom: 35px;
+                    }
+                }
+            }
+            .nav-and-ind {
+                margin-bottom: 20px;
+                .nav-footer {
+                    float: left;
+                    text-align: left;
+                    margin-right: 30px;
+                    @include footer-navs;
+                    ul {
+                        padding-left: 0;
+                        list-style: none;
+                        text-align: left;
+                        width: 125px;
+                        li {
+                            a {
+                                &:hover {
+                                    color: #03b6e7;
+                                }
+                            }
+                        }
+                    }
+                }
+                .ind {
+                    float: right;
+                    text-align: left;
+                    width: 125px;
+                    margin-right: 30px;
+                    h3 {
+                        display: inline-block;
+                    }
+                    @include footer-navs;
+                    ul {
+                        list-style: none;
+                        width: 123px;
+                        padding-left: 0;
+                        text-align: left;
+                        display: inline-block;
+                        li {
+                            a {
+                                &:hover {
+                                    color: #55bd77;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .news-letter {
+                width: 361px;
+                min-width: 300px;
+                text-align: left;
+                @media screen and (max-width: 379px){
+                    width: 300px;
+
+                }
+                h3 {
+                    margin-top: 0;
+                    margin-bottom: 35px;
+                    color: #e1e1e1;
+                    text-transform: uppercase;
+                    font: 700 20px/18px "Montserrat",sans-serif;
+                }
+                span {
+                    display: block;
+                    color: #838b8c;
+                    font: 400 15px/24px Domine;
+                    margin-bottom: 42px;
+                    padding-bottom: 0;
+                }
+                .form-element {
+                    input {
+                        border: none;
+                    }
+                    .input-field {
+                        background-color: #323334;
+                        padding: 17px;
+                        border-radius: 36px;
+                        padding-left: 35px;
+                        padding-right: 40px;
+                        width: 265px;
+                        @media screen and (max-width: 379px){
+                            padding: 10px;
+                            width: 260px;
+
+                        }
+                    }
+                    .submit {
+                        border: none;
+                        padding: 15px 23px;
+                        float: right;
+                        position: absolute;
+                        background: #16d428;
+                        color: white;
+                        border-radius: 40px;
+                        font: 400 15px/22px Montserrat;
+                        margin-left: -40px;
+                        @media screen and (max-width: 379px){
+                            padding: 8px;
+                            font-size: 11px;
+
+                        }
+                    }
+                }
+            }
+        }
+        .bottom-footer {
+            margin-top: 22px;
+            overflow: hidden;
+            span {
+                margin-top: 8px;
+                color: #838b8c;
+                display: block;
+                float: left;
+                font: 400 15px/24px Domine;
+            }
+            .social-links {
+                list-style: none;
+                padding-left: 0;
+                float: right;
+                li {
+                    padding: 20px;
+                    padding-top: 0;
+                    margin-top: 8px;
+                    display: inline-block;
+                    a {
+                        font: 400 13px / 13px Montserrat;
+                        text-transform: uppercase;
+                        text-decoration: none;
+                        padding: 3px;
+                        &:hover {
+                            box-shadow: 0 0 11px #d6e4e7;
+                            background-color: #e7eff1;
+                            border-radius: 10px;
+                        }
+                    }
+                    .fa {
+                        color: #385da5;
+                    }
+                    .tw {
+                        color: #00b5da;
+                    }
+                    .in {
+                        color: #d4c5a8;
+                    }
+                    .li {
+                        color: #1883bb;
+                    }
+                    .go {
+                        color: #e4463b;
+                    }
+                }
+                .none-pad {
+                    padding-right: 0;
+                }
+            }
+        }
+    }
+}
